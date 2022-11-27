@@ -1,19 +1,16 @@
-import { Box, Button, ButtonGroup, Card, CardBody, CardHeader, Flex, FormHelperText, FormLabel, Heading, Input, InputGroup, InputRightElement, Stack, StackDivider, Text, VStack } from '@chakra-ui/react'
+import {  Button,  Card, CardBody, CardHeader, Flex, FormLabel, Heading, Input,  Stack,  VStack } from '@chakra-ui/react'
 import React from 'react'
 
 export default function index() {
   return (
     <Flex
-
       justifyContent={"center"}
       alignItems={"center"}
       height={"100vh"}
     >
-
       <Card
         width={"500px"}
         padding={20}
-
       >
         <CardHeader >
           <Heading textAlign={"center"} size='md'>Welcome</Heading>
