@@ -18,20 +18,16 @@ export default function index() {
 
         <CardBody>
           <Stack>
-
             <FormLabel
               marginBottom={0}>Email</FormLabel>
             <Input
               borderRadius={15}
-
               pr='4.5rem'
               type={"email"}
               placeholder='email' />
-
           </Stack>
           <Stack
             marginTop={2}>
-
             <FormLabel
               marginBottom={0}
             >Password</FormLabel>
@@ -43,8 +39,6 @@ export default function index() {
               placeholder='password'
             />
           </Stack>
-
-
           <VStack marginTop={4} width={"100%"} alignSelf={"center"} >
             <Button width={"100%"}
               borderRadius={15}
